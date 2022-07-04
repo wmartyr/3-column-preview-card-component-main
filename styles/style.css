@@ -13,7 +13,24 @@
   --color-neutral-very-light-gray: hsl(0, 0%, 95%);
 }
 
+main {
+  height: 100%;
+  padding: 100px 10px 100px 10px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 50px;
+}
 
 .attribution {
   font-size: 11px;
