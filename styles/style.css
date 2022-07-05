@@ -52,11 +52,30 @@ main {
 
 button {
   font-family: 'Lexend Deca', sans-serif;
-  color: var(--color-primary-bright-orange);
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
+  width: 130px;
+  height: 45px;
+  border-radius: 25px;
   border: none;
+}
+
+.sedan-button {
+  color: var(--color-primary-bright-orange);
+}
+
+.suv-card {
+  background-color: var(--color-primary-dark-cyan);
+}
+
+.suv-button {
+  color: var(--color-primary-dark-cyan);
+}
+
+.luxury-card {
+  background-color: var(--color-primary-very-dark-cyan);
+}
+
+.luxury-button {
+  color: var(--color-primary-very-dark-cyan);
 }
 
 .attribution {
