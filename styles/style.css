@@ -1,5 +1,5 @@
 * {
-  outline: dashed 1px black;
+  /* outline: dashed 1px black; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -23,13 +23,40 @@ main {
 }
 
 .card {
-  width: 300px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 30px;
   padding: 50px;
+}
+
+.sedan-card {
+  background-color: var(--color-primary-bright-orange);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-title {
+  color: var(--color-neutral-very-light-gray);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
+}
+
+.card-description {
+  color: var(--color-neutral-transparent-white);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+button {
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--color-primary-bright-orange);
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
 }
 
 .attribution {
