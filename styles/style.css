@@ -103,6 +103,24 @@ button {
   button {
     margin-top: 50px;
   }
+  button:hover {
+    border: 2px solid var(--color-neutral-very-light-gray) ;
+    color: var(--color-neutral-transparent-white);
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .sedan-button:hover {
+    background-color: var(--color-primary-bright-orange);
+  }
+
+  .suv-button:hover {
+    background-color: var(--color-primary-dark-cyan);
+  }
+
+  .luxury-button:hover {
+    background-color: var(--color-primary-very-dark-cyan);
+  }
 }
 
 .attribution {
